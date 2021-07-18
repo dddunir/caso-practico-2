@@ -1,4 +1,9 @@
 
+variable "location" {
+  type = string
+  description = "Región de Azure donde crearemos la infraestructura"
+  default = "West Europe"
+}
 variable "storage_account" {
   type = string
   description = "Nombre para la storage account"
